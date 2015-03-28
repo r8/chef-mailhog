@@ -31,6 +31,6 @@ default['mailhog']['binary']['url'] = nil # Set it to override automatical gener
 default['mailhog']['binary']['mode'] = 0755
 default['mailhog']['binary']['path'] = '/usr/local/bin/MailHog'
 
-default['mailhog']['binary']['prefix_url'] = 'http://github.com/mailhog/MailHog/releases/download/v'
+default['mailhog']['binary']['prefix_url'] = 'https://github.com/mailhog/MailHog/releases/download/v'
 default['mailhog']['binary']['checksum']['linux_386'] = 'a72d1016b70964562c8a77a3b57637a77889ee61f3b22973e0a7beb17181d8da'
 default['mailhog']['binary']['checksum']['linux_amd64'] = 'e8e9acb4fa4470f4d4c3a4bba312f335bfc28122ea723599531699f099b4c9a5'
