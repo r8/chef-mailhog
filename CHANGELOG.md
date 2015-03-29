@@ -5,7 +5,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased][unreleased]
 ### Changed
-- Update github url to use https. [@daohoangson]
+- Update github url to use https. [[daohoangson](https://github.com/daohoangson)]
 
 ## 0.1.0 (2015-03-23)
 
