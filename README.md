@@ -11,7 +11,7 @@ This cookbook contains the following attributes:
 
 | Key                                              | Type    | Default                                                           | Description                                                                  |
 |--------------------------------------------------|---------|-------------------------------------------------------------------|------------------------------------------------------------------------------|
-| ['mailhog']['version']                           | String  | 0.1.6                                                             | Version of the MailHog to install                                            |
+| ['mailhog']['version']                           | String  | 0.2.0                                                             | Version of the MailHog to install                                            |
 | ['mailhog']['install_method']                    | String  | binary                                                            | MailHog install method                                                       |
 | ['mailhog']['binary']['url']                     | String  | nil                                                               | MailHog binary url                                                           |
 | ['mailhog']['binary']['mode']                    | Integer | 0755                                                              | Access permissions to the MailHog binary file                                |
