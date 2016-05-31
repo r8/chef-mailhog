@@ -1,4 +1,4 @@
 source 'https://rubygems.org'
 
 gem 'berkshelf'
-gem 'stove', '~> 3.0.0'
+gem 'stove', '~> 4.0.0'
