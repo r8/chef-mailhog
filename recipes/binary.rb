@@ -52,6 +52,7 @@ runit_service 'mailhog' do
     :smtp_outgoing => node['mailhog']['smtp']['outgoing'],
     :ui_ip => node['mailhog']['ui']['ip'],
     :ui_port => node['mailhog']['ui']['port'],
+    :ui_web_path => node['mailhog']['ui']['web_path'],
     :api_ip => node['mailhog']['api']['ip'],
     :api_port => node['mailhog']['api']['port'],
     :cors_origin => node['mailhog']['cors-origin'],

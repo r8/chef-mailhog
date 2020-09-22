@@ -28,6 +28,8 @@ This cookbook contains the following attributes:
 | ['mailhog']['api']['port']                       | Integer | 8025                                                              | Port for HTTP API server to bind to                                          |
 | ['mailhog']['ui']['ip']                          | String  | 0.0.0.0                                                           | Interface for HTTP UI server to bind to                                      |
 | ['mailhog']['ui']['port']                        | Integer | 8025                                                              | Port for HTTP UI server to bind to                                           |
+| ['mailhog']['ui']['web_path']                        | String | ''                                                              | WebPath under which the ui is served (without leading or trailing slahes), e.g. 'mailhog'
+                                           |
 | ['mailhog']['cors-origin']                       | String  | nil                                                               | If set, a Access-Control-Allow-Origin header is returned for API endpoints   |
 | ['mailhog']['hostname']                          | String  | mailhog.example                                                   | Hostname to use for EHLO/HELO and message IDs                                |
 | ['mailhog']['storage']                           | String  | memory                                                            | Set message storage: memory / mongodb / maildir                              |
