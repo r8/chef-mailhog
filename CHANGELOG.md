@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [0.2.1] - (2020-09-23)
+### Added
+-  Add option for ui web path [[Alexj12](https://github.com/Alexj12)]
+
 ## [0.2.0] - (2016-05-31)
 ### Changed
 - Update github url to use https [[daohoangson](https://github.com/daohoangson)]
