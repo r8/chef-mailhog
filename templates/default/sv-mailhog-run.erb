@@ -4,6 +4,7 @@ exec /usr/bin/env MailHog \
   -smtp-bind-addr=<%= @options[:smtp_ip] %>:<%= @options[:smtp_port] %> \
   -outgoing-smtp=<%= @options[:smtp_outgoing] %> \
   -ui-bind-addr=<%= @options[:ui_ip] %>:<%= @options[:ui_port] %> \
+  -ui-web-path=<%= @options[:ui_web_path] %> \
   -api-bind-addr=<%= @options[:api_ip] %>:<%= @options[:api_port] %> \
   -cors-origin=<%= @options[:cors_origin] %> \
   -hostname=<%= @options[:hostname] %> \

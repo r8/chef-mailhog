@@ -3,7 +3,7 @@ maintainer       'Sergey Storchay'
 maintainer_email 'r8@r8.com.ua'
 license          'MIT'
 description      'Installs/Configures mailhog'
-version          '0.2.0'
+version          '0.2.1'
 
 depends          'runit', '= 1.7.4'
 

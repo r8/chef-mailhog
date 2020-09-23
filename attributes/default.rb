@@ -47,6 +47,7 @@ default['mailhog']['api']['ip'] = '0.0.0.0'
 default['mailhog']['api']['port'] = 8025
 default['mailhog']['ui']['ip'] = '0.0.0.0'
 default['mailhog']['ui']['port'] = 8025
+default['mailhog']['ui']['web_path'] = ''
 
 default['mailhog']['cors-origin'] = nil
 default['mailhog']['hostname'] = 'mailhog.example'
