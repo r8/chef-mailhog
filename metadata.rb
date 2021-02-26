@@ -5,7 +5,7 @@ license          'MIT'
 description      'Installs/Configures mailhog'
 version          '0.2.1'
 
-depends          'runit', '= 1.7.4'
+depends          'runit'
 
 %w(debian ubuntu centos redhat smartos).each do |os|
   supports os, '>= 0.0.0'
