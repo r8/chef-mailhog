@@ -32,6 +32,7 @@ This cookbook contains the following attributes:
 | ['mailhog']['cors-origin']                       | String  | nil                                                               | If set, a Access-Control-Allow-Origin header is returned for API endpoints   |
 | ['mailhog']['hostname']                          | String  | mailhog.example                                                   | Hostname to use for EHLO/HELO and message IDs                                |
 | ['mailhog']['storage']                           | String  | memory                                                            | Set message storage: memory / mongodb / maildir                              |
+| ['mailhog']['maildir_path']                      | String  | ''                                                                | Path for storage of messages in a file                                       |
 | ['mailhog']['mongodb']['ip']                     | String  | 127.0.0.1                                                         | Host for MongoDB                                                             |
 | ['mailhog']['mongodb']['port']                   | Integer | 27017                                                             | Port for MongoDB                                                             |
 | ['mailhog']['mongodb']['db']                     | String  | mailhog                                                           | MongoDB database name for message storage                                    |

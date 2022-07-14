@@ -58,6 +58,7 @@ runit_service 'mailhog' do
     :cors_origin => node['mailhog']['cors-origin'],
     :hostname => node['mailhog']['hostname'],
     :storage => node['mailhog']['storage'],
+    :maildir_path => node['mailhog']['maildir_path'],
     :mongodb_ip => node['mailhog']['mongodb']['ip'],
     :mongodb_port => node['mailhog']['mongodb']['port'],
     :mongodb_db => node['mailhog']['mongodb']['db'],

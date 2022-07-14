@@ -53,6 +53,7 @@ default['mailhog']['cors-origin'] = nil
 default['mailhog']['hostname'] = 'mailhog.example'
 
 default['mailhog']['storage'] = 'memory'
+default['mailhog']['maildir_path'] = ''
 default['mailhog']['mongodb']['ip'] = '127.0.0.1'
 default['mailhog']['mongodb']['port'] = 27017
 default['mailhog']['mongodb']['db'] = 'mailhog'
