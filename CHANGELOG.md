@@ -3,6 +3,9 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## Unreleased
+- Add support for maildir storage [[SeanSith](https://github.com/SeanSith)]
+
 ## [0.2.1] - (2020-09-23)
 ### Added
 -  Add option for ui web path [[Alexj12](https://github.com/Alexj12)]
