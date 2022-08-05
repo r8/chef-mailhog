@@ -9,6 +9,7 @@ exec /usr/bin/env MailHog \
   -cors-origin=<%= @options[:cors_origin] %> \
   -hostname=<%= @options[:hostname] %> \
   -storage=<%= @options[:storage] %> \
+  -maildir-path=<%= @options[:maildir_path] %> \
   -mongo-uri=<%= @options[:mongodb_ip] %>:<%= @options[:mongodb_port] %> \
   -mongo-db=<%= @options[:mongodb_db] %> \
   -mongo-coll=<%= @options[:mongodb_collection] %> \
